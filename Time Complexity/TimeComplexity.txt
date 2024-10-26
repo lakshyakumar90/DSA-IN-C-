@@ -1,0 +1,35 @@
+- What is Time Complexity ?
+  - It is not equal to the time taken to execute. (!= time taken)
+  - Rate at which the time taken increases with respect to the input size
+  - Plot it in a graph as time vs input size and the angle (theta) on which the graph increases is called Time Complexity
+
+- Big-Oh Notation O(time)
+  - TC to be computed in worst case scenario
+  - Avoid constants
+  - Avoid Lower values
+
+- Types of TC:
+  - big-o - Worst case (Upper Bond)
+  - theta - Average Complexity
+  - omega - Best case (Worst Bond)
+
+
+- Space Complexity
+  - Memory Space
+  - Auxiliary space + Input Space
+  - AS - Space that you take to solve the problem
+  - IS - Space that you take to store the input
+
+  a and b
+  c = a + b
+   - c - Auxiliary space 
+   - a & b - Input space
+
+SC = O(3)
+
+NOTE:- Never do anything to the input
+       Never manipulate the input data
+
+       Servers in Competitive Programming:
+       1 second - 10^8 operations
+       2 seconds - 2 * 10^8 operations
